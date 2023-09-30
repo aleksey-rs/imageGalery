@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Galery</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="logo"></div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="search__wrapper">
+            <div class="serch--box">
+                <i class="fa-search"></i>
+                <input id="search" type="text" placeholder="Search..." autocomplete="off" autofocus>
+                <i class="fa-xmark"></i>
+            </div>
+            <div class="search--box_error">
+                Please Fill Out this Field
+            </div>
+        </div>
+        <div class="container container--main">
+            <div class="image_gallery"></div>
+            <div class="empty_result">
+                <img src="./images/photos.png" alt="empty" class="empty_img">
+                <div class="empty_message">Sorry, there are no search results for this query. Please try another request or try again later.</div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__list">
+                <div class="footer__logo_rs">
+                <a href="https://rs.school/js-stage0/" class="logo_rs">
+                    <img src="./images/rs_school_js.svg" alt="rs-school" class="logo_rs">
+                </a>
+                </div>
+                <div class="footer__year">
+                    <span>2023</span>    
+                </div>
+                <div class="footer__logo_git">
+                <a href="https://github.com/aleksey-rs" class="logo_git">
+                    <img src="./images/git.png" alt="git" class="logo_git">
+                </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <span class="close"></span>
+        <img class="modal-content">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
