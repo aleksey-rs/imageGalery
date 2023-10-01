@@ -262,7 +262,6 @@ header {
   
 .close:hover,
 .close:focus {
-    color: #bbb;
-    text-decoration: none;
+    filter: invert(37%) sepia(73%) saturate(1241%) hue-rotate(32deg) brightness(92%) contrast(101%);
     cursor: pointer;
 }
